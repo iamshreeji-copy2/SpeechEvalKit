@@ -1,31 +1,56 @@
-Copy-paste this full updated `README.md`:
-
-````markdown
 # SpeechEvalKit
 
 <p align="center">
   <b>🎧 SpeechEvalKit</b><br>
-  A unified Python package for objective and subjective speech evaluation.
+  A Python package for speech generation, enhancement, voice conversion, ASR, MOS, and SMOS evaluation.
 </p>
 
 <p align="center">
-  <b>Author:</b> Ravindrakumar M. Purohit<br>
-  <b>Package:</b> SpeechEvalKit<br>
-  <b>PyPI:</b> https://pypi.org/project/speechevalkit/
+  <a href="https://pypi.org/project/speechevalkit/">
+    <img src="https://img.shields.io/pypi/v/speechevalkit.svg" alt="PyPI">
+  </a>
+  <a href="https://pypi.org/project/speechevalkit/">
+    <img src="https://img.shields.io/pypi/pyversions/speechevalkit.svg" alt="Python Versions">
+  </a>
+  <a href="https://pypi.org/project/speechevalkit/">
+    <img src="https://img.shields.io/pypi/l/speechevalkit.svg" alt="License">
+  </a>
+  <a href="https://pypi.org/project/speechevalkit/">
+    <img src="https://img.shields.io/pypi/dm/speechevalkit.svg" alt="Downloads">
+  </a>
 </p>
 
 ---
 
-## Project Description
+## Overview
 
-**SpeechEvalKit** is a lightweight, research-friendly Python toolkit created by **Ravindrakumar M. Purohit** for evaluating speech generation, speech enhancement, text-to-speech, voice conversion, dysarthric speech synthesis, and ASR systems.
+**SpeechEvalKit** is a lightweight and extensible Python toolkit for evaluating speech systems.
 
-It supports both:
+It is designed for:
 
-1. **Objective evaluation** using metrics such as PESQ, STOI, SI-SDR, MCD, cosine similarity, WER, CER, and MER.
-2. **Subjective evaluation** using a Django-based MOS / SMOS web interface with subject registration, admin dashboard, experiment-wise CSV logging, Plotly graphs, and waveform playback.
+- speech generation
+- text-to-speech
+- speech enhancement
+- voice conversion
+- dysarthric speech synthesis
+- ASR transcript evaluation
+- subjective MOS / SMOS listening tests
 
-SpeechEvalKit is designed to be simple enough for quick experiments and flexible enough for real research studies.
+SpeechEvalKit provides:
+
+- a simple Python API
+- command-line evaluation
+- batch directory evaluation
+- automatic audio loading and resampling
+- waveform alignment
+- fuzzy filename matching
+- multiprocessing support
+- JSON and CSV logging
+- colorful terminal output
+- Django-based MOS / SMOS web GUI
+- admin dashboard for subjective tests
+- Plotly-based visualization
+- subject-wise and experiment-wise CSV export
 
 ---
 
@@ -59,9 +84,11 @@ SpeechEvalKit is designed to be simple enough for quick experiments and flexible
 
 ## Documentation
 
-SpeechEvalKit documentation is currently provided through this README and package examples.
+Documentation is currently available through this README and package examples.
 
-The package is built around one simple API:
+The package supports both objective and subjective speech evaluation workflows.
+
+Example use cases:
 
 ```python
 from speechevalkit import evaluate
@@ -73,7 +100,6 @@ results = evaluate(
 )
 
 print(results["summary"])
-````
 
 SpeechEvalKit automatically handles:
 
