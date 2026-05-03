@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>🎧 SpeechEvalKit</b><br>
-  A Python package for speech generation, enhancement, voice conversion, ASR, MOS, and SMOS evaluation.
+  A unified Python toolkit for objective and subjective speech evaluation with audio metrics, ASR scoring, and MOS/SMOS web GUI support.
 </p>
 
 <p align="center">
