@@ -1,0 +1,13 @@
+numpy>=1.23
+scipy>=1.9
+librosa>=0.10
+tqdm>=4.64
+rich>=13.0
+django>=4.2
+
+# Optional objective metrics
+pesq>=0.0.4
+pystoi>=0.4.1
+
+# Optional text metrics: WER, CER, MER
+jiwer>=3.0.0

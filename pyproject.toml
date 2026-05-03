@@ -1,0 +1,77 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "speechevalkit"
+version = "0.2.0"
+description = "A unified speech evaluation toolkit for speech generation, enhancement, voice conversion, ASR, MOS, and SMOS evaluation."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Ravindrakumar M. Purohit", email = "202321002@dau.ac.in" }
+]
+keywords = [
+    "speech",
+    "audio",
+    "evaluation",
+    "speech-enhancement",
+    "text-to-speech",
+    "voice-conversion",
+    "ASR",
+    "MOS",
+    "SMOS",
+    "PESQ",
+    "STOI",
+    "SI-SDR",
+    "MCD"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Topic :: Multimedia :: Sound/Audio :: Analysis",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12"
+]
+
+dependencies = [
+    "numpy>=1.23",
+    "scipy>=1.9",
+    "librosa>=0.10",
+    "tqdm>=4.64",
+    "rich>=13.0"
+]
+
+[project.optional-dependencies]
+metrics = [
+    "pesq>=0.0.4",
+    "pystoi>=0.4.1",
+    "jiwer>=3.0.0"
+]
+gui = [
+    "django>=4.2"
+]
+all = [
+    "pesq>=0.0.4",
+    "pystoi>=0.4.1",
+    "jiwer>=3.0.0",
+    "django>=4.2"
+]
+
+[project.scripts]
+speechevalkit = "speechevalkit.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/YOUR_GITHUB_USERNAME/speechevalkit"
+Repository = "https://github.com/YOUR_GITHUB_USERNAME/speechevalkit"
+Documentation = "https://github.com/YOUR_GITHUB_USERNAME/speechevalkit#readme"
+"Bug Tracker" = "https://github.com/YOUR_GITHUB_USERNAME/speechevalkit/issues"
+PyPI = "https://pypi.org/project/speechevalkit/"

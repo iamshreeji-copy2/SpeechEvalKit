@@ -1,0 +1,2 @@
+metric,num_total_files,num_scores,mean,ci95_low,ci95_high,cancelled,output_csv
+mos,10,10,3.6,2.8160000000000003,4.384,False,results/experiments/exp_001_2026-05-03_22-23-03_mos/mos_scores.csv
