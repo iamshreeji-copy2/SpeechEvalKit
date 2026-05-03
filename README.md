@@ -1,3 +1,5 @@
+Copy-paste this full updated `README.md`:
+
 ````markdown
 # SpeechEvalKit
 
@@ -7,25 +9,16 @@
 </p>
 
 <p align="center">
-  <a href="https://pypi.org/project/speechevalkit/">
-    <img src="https://img.shields.io/pypi/v/speechevalkit.svg" alt="PyPI">
-  </a>
-  <a href="https://pypi.org/project/speechevalkit/">
-    <img src="https://img.shields.io/pypi/pyversions/speechevalkit.svg" alt="Python Versions">
-  </a>
-  <a href="https://pypi.org/project/speechevalkit/">
-    <img src="https://img.shields.io/pypi/l/speechevalkit.svg" alt="License">
-  </a>
-  <a href="https://pypi.org/project/speechevalkit/">
-    <img src="https://img.shields.io/pypi/dm/speechevalkit.svg" alt="Downloads">
-  </a>
+  <b>Author:</b> Ravindrakumar M. Purohit<br>
+  <b>Package:</b> SpeechEvalKit<br>
+  <b>PyPI:</b> https://pypi.org/project/speechevalkit/
 </p>
 
 ---
 
 ## Project Description
 
-**SpeechEvalKit** is a lightweight, research-friendly Python toolkit for evaluating speech generation, speech enhancement, text-to-speech, voice conversion, dysarthric speech synthesis, and ASR systems.
+**SpeechEvalKit** is a lightweight, research-friendly Python toolkit created by **Ravindrakumar M. Purohit** for evaluating speech generation, speech enhancement, text-to-speech, voice conversion, dysarthric speech synthesis, and ASR systems.
 
 It supports both:
 
@@ -93,7 +86,8 @@ SpeechEvalKit automatically handles:
 * corrupted file skipping
 * batch processing
 * progress bars
-* JSON / CSV output
+* JSON output
+* CSV output
 * optional multiprocessing
 * optional fuzzy filename matching
 
@@ -112,7 +106,7 @@ launch_gui(
 )
 ```
 
-Back To Top ↥
+<p align="right"><a href="#speechevalkit">Back to top ↑</a></p>
 
 ---
 
@@ -148,7 +142,7 @@ python -c "from speechevalkit import evaluate; print('SpeechEvalKit API OK')"
 python -c "from speechevalkit.gui import launch_gui; print('SpeechEvalKit GUI OK')"
 ```
 
-Back To Top ↥
+<p align="right"><a href="#speechevalkit">Back to top ↑</a></p>
 
 ---
 
@@ -185,7 +179,7 @@ Test:
 python -c "from speechevalkit import evaluate; print('OK')"
 ```
 
-Back To Top ↥
+<p align="right"><a href="#speechevalkit">Back to top ↑</a></p>
 
 ---
 
@@ -233,7 +227,7 @@ python -m build
 twine check dist/*
 ```
 
-Back To Top ↥
+<p align="right"><a href="#speechevalkit">Back to top ↑</a></p>
 
 ---
 
@@ -262,7 +256,7 @@ Optional dependencies:
 python3 -m pip install pesq pystoi jiwer django
 ```
 
-Back To Top ↥
+<p align="right"><a href="#speechevalkit">Back to top ↑</a></p>
 
 ---
 
@@ -288,7 +282,7 @@ Optional dependencies:
 python3 -m pip install pesq pystoi jiwer django
 ```
 
-Back To Top ↥
+<p align="right"><a href="#speechevalkit">Back to top ↑</a></p>
 
 ---
 
@@ -320,7 +314,7 @@ Optional dependencies:
 python -m pip install pesq pystoi jiwer django
 ```
 
-Back To Top ↥
+<p align="right"><a href="#speechevalkit">Back to top ↑</a></p>
 
 ---
 
@@ -355,7 +349,7 @@ python -c "from speechevalkit import evaluate; print('API OK')"
 python -c "from speechevalkit.gui import launch_gui; print('GUI OK')"
 ```
 
-Back To Top ↥
+<p align="right"><a href="#speechevalkit">Back to top ↑</a></p>
 
 ---
 
@@ -405,7 +399,7 @@ Example output:
 }
 ```
 
-Back To Top ↥
+<p align="right"><a href="#speechevalkit">Back to top ↑</a></p>
 
 ---
 
@@ -516,7 +510,7 @@ results = evaluate_text(
 print(results["summary"])
 ```
 
-Back To Top ↥
+<p align="right"><a href="#speechevalkit">Back to top ↑</a></p>
 
 ---
 
@@ -579,7 +573,7 @@ speechevalkit \
   --num-workers auto
 ```
 
-Back To Top ↥
+<p align="right"><a href="#speechevalkit">Back to top ↑</a></p>
 
 ---
 
@@ -610,7 +604,7 @@ Back To Top ↥
 | `mos`  | Mean Opinion Score for quality / naturalness |
 | `smos` | Speaker Similarity Mean Opinion Score        |
 
-Back To Top ↥
+<p align="right"><a href="#speechevalkit">Back to top ↑</a></p>
 
 ---
 
@@ -678,11 +672,13 @@ The web GUI supports:
 * admin dashboard
 * Plotly graphs
 
-Back To Top ↥
+<p align="right"><a href="#speechevalkit">Back to top ↑</a></p>
 
 ---
 
 ## Admin Dashboard
+
+SpeechEvalKit includes a web-based admin dashboard for managing MOS / SMOS experiments.
 
 Default admin login:
 
@@ -727,7 +723,7 @@ Admin settings include:
 
 Subjects cannot enable or disable shuffle. Shuffle is admin-only.
 
-Back To Top ↥
+<p align="right"><a href="#speechevalkit">Back to top ↑</a></p>
 
 ---
 
@@ -783,7 +779,7 @@ Contains per-WAV mean, standard deviation, mean ± std, and confidence interval.
 
 Contains experiment-level summary statistics.
 
-Back To Top ↥
+<p align="right"><a href="#speechevalkit">Back to top ↑</a></p>
 
 ---
 
@@ -837,7 +833,7 @@ Recommended subjective evaluation:
 MOS and SMOS
 ```
 
-Back To Top ↥
+<p align="right"><a href="#speechevalkit">Back to top ↑</a></p>
 
 ---
 
@@ -859,7 +855,7 @@ python -m pip install speechevalkit
 python -m pip install pesq pystoi jiwer django
 ```
 
-Back To Top ↥
+<p align="right"><a href="#speechevalkit">Back to top ↑</a></p>
 
 ---
 
@@ -953,7 +949,7 @@ This is expected if not all WAV files are rated.
 
 SpeechEvalKit requires each subject to rate every WAV file before the final submit page is available.
 
-Back To Top ↥
+<p align="right"><a href="#speechevalkit">Back to top ↑</a></p>
 
 ---
 
@@ -971,7 +967,7 @@ For PyPI package information:
 https://pypi.org/project/speechevalkit/
 ```
 
-Back To Top ↥
+<p align="right"><a href="#speechevalkit">Back to top ↑</a></p>
 
 ---
 
@@ -980,12 +976,12 @@ Back To Top ↥
 If you use SpeechEvalKit in academic work, please cite:
 
 ```bibtex
-@software{speechevalkit2026,
-  title = {SpeechEvalKit: A Unified Speech Evaluation Toolkit for Speech Generation, Enhancement, Voice Conversion, ASR, MOS, and SMOS Evaluation},
-  author = {YOUR NAME},
-  year = {2026},
-  url = {https://pypi.org/project/speechevalkit/},
-  version = {0.2.0}
+@software{purohit_speechevalkit_2026,
+  title        = {SpeechEvalKit: A Unified Speech Evaluation Toolkit for Speech Generation, Enhancement, Voice Conversion, ASR, MOS, and SMOS Evaluation},
+  author       = {Purohit, Ravindrakumar M.},
+  year         = {2026},
+  url          = {https://pypi.org/project/speechevalkit/},
+  version      = {0.2.0}
 }
 ```
 
@@ -993,42 +989,42 @@ Recommended citations for related metrics:
 
 ```bibtex
 @inproceedings{rix2001pesq,
-  title = {Perceptual evaluation of speech quality (PESQ), a new method for speech quality assessment of telephone networks and codecs},
-  author = {Rix, Antony W. and Beerends, John G. and Hollier, Michael P. and Hekstra, Andries P.},
-  booktitle = {IEEE International Conference on Acoustics, Speech, and Signal Processing},
-  year = {2001}
+  title        = {Perceptual evaluation of speech quality (PESQ), a new method for speech quality assessment of telephone networks and codecs},
+  author       = {Rix, Antony W. and Beerends, John G. and Hollier, Michael P. and Hekstra, Andries P.},
+  booktitle    = {IEEE International Conference on Acoustics, Speech, and Signal Processing},
+  year         = {2001}
 }
 
 @article{taal2011stoi,
-  title = {An Algorithm for Intelligibility Prediction of Time-Frequency Weighted Noisy Speech},
-  author = {Taal, Cees H. and Hendriks, Richard C. and Heusdens, Richard and Jensen, Jesper},
-  journal = {IEEE Transactions on Audio, Speech, and Language Processing},
-  year = {2011}
+  title        = {An Algorithm for Intelligibility Prediction of Time-Frequency Weighted Noisy Speech},
+  author       = {Taal, Cees H. and Hendriks, Richard C. and Heusdens, Richard and Jensen, Jesper},
+  journal      = {IEEE Transactions on Audio, Speech, and Language Processing},
+  year         = {2011}
 }
 
 @inproceedings{leroux2019sdr,
-  title = {SDR half-baked or well done?},
-  author = {Le Roux, Jonathan and Wisdom, Scott and Erdogan, Hakan and Hershey, John R.},
-  booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing},
-  year = {2019}
+  title        = {SDR half-baked or well done?},
+  author       = {Le Roux, Jonathan and Wisdom, Scott and Erdogan, Hakan and Hershey, John R.},
+  booktitle    = {IEEE International Conference on Acoustics, Speech and Signal Processing},
+  year         = {2019}
 }
 
 @inproceedings{mittag2021nisqa,
-  title = {NISQA: A Deep CNN-Self-Attention Model for Multidimensional Speech Quality Prediction with Crowdsourced Datasets},
-  author = {Mittag, Gabriel and Naderi, Babak and Chehadi, Assmaa and Möller, Sebastian},
-  booktitle = {Interspeech},
-  year = {2021}
+  title        = {NISQA: A Deep CNN-Self-Attention Model for Multidimensional Speech Quality Prediction with Crowdsourced Datasets},
+  author       = {Mittag, Gabriel and Naderi, Babak and Chehadi, Assmaa and Möller, Sebastian},
+  booktitle    = {Interspeech},
+  year         = {2021}
 }
 
 @inproceedings{reddy2021dnsmos,
-  title = {DNSMOS: A Non-Intrusive Perceptual Objective Speech Quality Metric to Evaluate Noise Suppressors},
-  author = {Reddy, Chandan K. A. and Gopal, Vishak and Cutler, Ross},
-  booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing},
-  year = {2021}
+  title        = {DNSMOS: A Non-Intrusive Perceptual Objective Speech Quality Metric to Evaluate Noise Suppressors},
+  author       = {Reddy, Chandan K. A. and Gopal, Vishak and Cutler, Ross},
+  booktitle    = {IEEE International Conference on Acoustics, Speech and Signal Processing},
+  year         = {2021}
 }
 ```
 
-Back To Top ↥
+<p align="right"><a href="#speechevalkit">Back to top ↑</a></p>
 
 ---
 
@@ -1036,11 +1032,9 @@ Back To Top ↥
 
 MIT License.
 
-Copyright © 2026 SpeechEvalKit.
+Copyright © 2026 Ravindrakumar M. Purohit.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files, to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, subject to the terms of the MIT License.
+SpeechEvalKit is released for research, academic, and software development use under the MIT License.
 
-Back To Top ↥
-
-```
+<p align="right"><a href="#speechevalkit">Back to top ↑</a></p>
 ```
